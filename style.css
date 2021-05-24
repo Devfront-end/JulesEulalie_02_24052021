@@ -1,9 +1,29 @@
 body{
     font-family: 'Raleway', sans-serif;
     background-color:#FFF;
+    margin: 0;
 }
-h1{
-    color: blue;
-    background-color: #FFF;
-    font-family: 'Courier New', Courier, monospace;
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+nav{
+    margin-top: 10px;
+}
+
+nav img{
+    height: 50px;
+    margin-left: 20px;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav li{
+    margin: 0 10px 0 20px;
 }
