@@ -3,27 +3,57 @@ body{
     background-color:#FFF;
     margin: 0;
 }
-nav{
+
+.container{
+display: flex; 
+flex-direction: row; 
+align-items: center;
+justify-content:space-between;
+
+}
+
+.logo{
      display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
-
-nav{
-    margin-top: 10px;
+     height: 80px; 
+     margin-left: 20px;  
 }
 
-nav img{
-    height: 50px;
-    margin-left: 20px;
-}
-
-
-nav ul{
+.menu nav{
     display: flex;
-    list-style: none;
+    justify-content: flex-end;
+   
+   
+}
 
+
+h1{
+ font-size: 18px;
+ margin-left: 20px;
 }
-nav li{
-    margin: 0 10px 0 20px;
+
+.p{
+ margin-left: 20px;
 }
+
+.filtres-ul{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+
+.hébergements{
+    display: flex;
+    flex-direction: row;
+   
+  
+  
+}
+img{
+    width: 180px;
+    height: 100px;
+}
+
+
+
+
+
