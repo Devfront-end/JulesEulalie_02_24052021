@@ -3,13 +3,15 @@ body{
     margin: 0;
     background-color: #FFFF;
 }
-
+#blocpage{
+    width: 100%;
+    margin: auto;
+}
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 nav img{
@@ -18,8 +20,7 @@ nav img{
 }
 
 nav{
-    margin-top: 10px;
-  
+    margin-top: 10px; 
 }
 
 nav ul{
@@ -44,6 +45,18 @@ h1{
   font-weight: bold;  
   font-family:sans-serif;
   font-size:1.2em;
+}
+
+.recherche{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+hébergements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
