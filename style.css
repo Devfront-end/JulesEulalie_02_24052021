@@ -120,8 +120,6 @@ input{
     display:none;
 }
 
-
-
 .filtres{
  display: flex;
  align-items: row;
@@ -209,7 +207,8 @@ input{
     align-items: center;
     margin-left: 20px;
 
-}.fa-dog{
+}
+.fa-dog{
     color: #0065fc;
     color: #0065fc;
     background-color:lightskyblue;
@@ -266,14 +265,13 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
 
 #hotels{
-    background-color: #f2f2f2;
+    background-color:#f2f2f2;
     border-radius: 2%;
-    width: 65%;
-    
+    width: 65%; 
+  
 }
 
 
@@ -282,16 +280,31 @@ h2{
     margin-left: 30px;
     flex-direction: column;
     width: 30%;
+    background-color:white;
+    padding-top: 10px;
+    border-radius: 30px;
+    padding: 10px;
+  
 }
 
+
+
 .hotel>img{
-    background-color: white;
     border-radius: 15px 15px 0 0;
     height:120px;
     object-fit: cover;
-    width:60%;
+    
 }
-  
+
+
+.scale{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+
 
 #populaires{
     background-color:#f2f2f2;
@@ -300,25 +313,55 @@ h2{
 }
 
 .container_pop{
-
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
 }
 
 .pop{
     display: flex;
-    margin-left: 30px;
-    flex-direction: column;
-    width: 20%;
+    margin-left: 40px;
+    flex-direction: row;
+    width: 100%;
+    background-color:white;
+    border-radius: 15px 15px 15px 15px;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-right: 10px;  
 }
 
-.pop>img{
-    height:120px;
-    object-fit: cover;
-    width:120%;
-}
-
-.activites{
+.popul{
     display: flex;
+    flex-direction:column;
+    width:40%;
 }
+.pop>img{
+    height:130px;
+    object-fit: cover;
+    width:35%;
+    border-radius:15px 0px 0px 15px;
+}
+
+.affichage{
+    display: flex;
+    margin-left:10px;
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+#activites{
+    background-color: #0065fc;
+    margin-left:2.5%;    
+}
+
+.container_activités{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+     
+}
+
+
 
 
 
@@ -327,10 +370,30 @@ h2{
 
 .sectionFooter{
     display: flex;
-    justify-content:space-between;
-
+    justify-content:space-around;
+    margin-left: -300px;
+  
+ 
+ 
 
 }
+
+.sous-titre{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    padding-top: 50px;
+   
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    line-height: 1px;
+    color:black;
+    font-family: sans-serif;
+}
+
+
 
 
 
