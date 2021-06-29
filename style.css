@@ -1,5 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
 }
 /*MENU#blocpage{
@@ -284,7 +285,7 @@ h2{
     padding-top: 10px;
     border-radius: 30px;
     padding: 10px;
-  
+    margin: 15px;
 }
 
 
@@ -327,10 +328,11 @@ h2{
     border-radius: 15px 15px 15px 15px;
     padding-top:10px;
     padding-left: 10px;
-    padding-right: 10px;  
+    padding-right: 10px; 
+    margin: 15px; ; 
 }
 
-.popul{
+.populo{
     display: flex;
     flex-direction:column;
     width:40%;
@@ -351,15 +353,32 @@ h2{
 
 #activites{
     background-color: #0065fc;
-    margin-left:2.5%;    
+    margin-left:2.5%; 
 }
 
-.container_activités{
+.container_activites{
     display: flex;
-    flex-direction: row;
-    display: flex;
-     
+    flex-direction: row;  
+    
 }
+
+.activite{
+    display: flex;
+    flex-direction: column;
+    width:80%;   
+}
+
+
+.activites>img{
+    height: 130px;
+    object-fit: cover; 
+}
+
+.activite2{
+    display: flex;
+    
+}
+
 
 
 
@@ -384,6 +403,10 @@ h2{
     padding-top: 50px;
    
 }
+
+.sectionFooter{
+    background-color: #f2f2f2;
+}
 .foot{
     display: flex;
     flex-direction: column;
@@ -391,6 +414,7 @@ h2{
     line-height: 1px;
     color:black;
     font-family: sans-serif;
+    
 }
 
 
