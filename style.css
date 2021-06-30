@@ -1,6 +1,5 @@
 body{
     font-family: 'Raleway', sans-serif;
-    font-family: 'Raleway', sans-serif;
     margin: 0;
 }
 /*MENU#blocpage{
@@ -15,6 +14,7 @@ p{
     margin-left: 20px;
     font-family: Raleway;
     font-size:20px;
+    
 }
 
 a{
@@ -46,19 +46,16 @@ nav ul{
 }
 
 nav li{
-    margin: 0 10px 0 10px;
-   
+    margin: 0 10px 0 10px; 
 }
 
 
 h3{
-    margin-left: 20px;
+  margin-left: 20px;
   margin-top: 10px;
 }
 
-p{
-   margin-top: -15px;
-}
+
 h5{
     margin-left: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -139,7 +136,8 @@ input{
 }
 
 .icone_filtre{
-    display: flex;  
+    display: flex;
+    padding-top: 1px;  
 }
 
 .eco{
@@ -256,6 +254,10 @@ input{
     color: lightgrey;
 }
 
+h3{
+    
+}
+
 h2{
     font-weight: bold;
     font-family: sans-serif;
@@ -288,7 +290,7 @@ h2{
     display: flex;
     margin-left: 30px;
     flex-direction: column;
-    width: 30%;
+    width: 25%;
     background-color:white;
     padding-top: 10px;
     border-radius: 30px;
@@ -373,8 +375,7 @@ h2{
     display: flex;
     flex-direction: column;
     width: 100%;
-
-    margin: 15px; ; 
+    margin: 15px; 
 }
 
 
@@ -383,6 +384,7 @@ h2{
     flex-direction: column; 
     background-color: aqua; 
     margin-left: 20px;
+    height: 120px;
 }
 
 .activite2{
