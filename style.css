@@ -50,8 +50,14 @@ nav li{
    
 }
 
+
 h3{
     margin-left: 20px;
+  margin-top: 10px;
+}
+
+p{
+   margin-top: -15px;
 }
 h5{
     margin-left: 20px;
@@ -244,9 +250,11 @@ input{
 .étoiles{
    color: #0065fc;
    margin-left: 20px;
-   
 }
-/**/
+
+.grey{
+    color: lightgrey;
+}
 
 h2{
     font-weight: bold;
@@ -358,9 +366,17 @@ h2{
 
 .container_activites{
     display: flex;
-    flex-direction: row;  
-    
+    flex-direction: row;    
 }
+
+.activite{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin: 15px; ; 
+}
+
 
 .activite1{
     display: flex;
@@ -381,14 +397,34 @@ h2{
     display: flex;
     flex-direction: column;
     background-color:aquamarine;
-    margin-right: 20px; 
+    
     margin-left: 20px;  
 }
 
 .activite4{
     display: flex;
     flex-direction: column; 
+    background-color: aqua;
+    margin-left: 20px;
 }
+
+.activite5{
+    display: flex;
+    flex-direction: column; 
+    background-color: aqua;
+    margin-left: 20px;
+}
+
+.activite6{
+    display: flex;
+    flex-direction: column; 
+    background-color: aqua;
+    margin-left: 20px;
+}
+
+
+
+
 
 
 
