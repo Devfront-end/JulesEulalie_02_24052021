@@ -358,11 +358,15 @@ h2{
     font-size: 10px;
     padding-top: 30px;
 }
+.mars{
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
 
 #activites{
-
     margin-left:2.5%; 
 }
+
 
 .container_activites{
     display: flex;
@@ -377,51 +381,43 @@ h2{
     margin: 15px; 
 }
 
-
-.activite1{
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    object-fit: cover;
+.activite img{
     border-radius: 15px 15px 0 0;
-
+    width: 100%;
+    object-fit: cover;
 }
 
-.activite2{
-    display: flex;
-    flex-direction: column; 
-    height: 200px;
-    object-fit: cover;
-    border-radius: 15px 15px 0 0;    
+
+.activite1 img{
+    height: 550px;
+    margin-top: -15px;
 }
 
-.activite3{
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    object-fit: cover;
+
+.activite2 img{
+    height: 200px;  
+}
+
+.activite3 img{
+    margin-top: 80px;
+}
+
+.activite4 img{
+   height: 550px;
   
 }
 
-.activite4{
-    display: flex;
-    flex-direction: column; 
-    height: 200px;
-    object-fit: cover;
+.activite5 img{
+    height: 200px; 
 }
 
-.activite5{
-    display: flex;
-    flex-direction: column; 
-    
-
+.activite6 img{
+    height: 200px; 
+    margin-top: 80px;
 }
 
-.activite6{
-    display: flex;
-    flex-direction: column; 
-
-
+.nomactivite{
+    font-weight: bold;
 }
 
 
