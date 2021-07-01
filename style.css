@@ -331,9 +331,7 @@ h2{
 
 .pop{
     display: flex;
-    margin-left: 40px;
     flex-direction: row;
-    width: 100%;
     background-color:white;
     border-radius: 15px 15px 15px 15px;
     padding-top:10px;
@@ -362,69 +360,69 @@ h2{
 }
 
 #activites{
-    background-color: #0065fc;
+
     margin-left:2.5%; 
 }
 
 .container_activites{
     display: flex;
-    flex-direction: row;    
+    flex-wrap: nowrap;  
+    justify-content: space-between;
 }
 
 .activite{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 25%;
     margin: 15px; 
 }
 
 
 .activite1{
     display: flex;
-    flex-direction: column; 
-    background-color: aqua; 
-    margin-left: 20px;
-    height: 120px;
+    flex-direction: column;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+
 }
 
 .activite2{
     display: flex;
     flex-direction: column; 
-    background-color: aqua;
-    margin-left: 20px; 
-    
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;    
 }
 
 .activite3{
     display: flex;
     flex-direction: column;
-    background-color:aquamarine;
-    
-    margin-left: 20px;  
+    height: 200px;
+    object-fit: cover;
+  
 }
 
 .activite4{
     display: flex;
     flex-direction: column; 
-    background-color: aqua;
-    margin-left: 20px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .activite5{
     display: flex;
     flex-direction: column; 
-    background-color: aqua;
-    margin-left: 20px;
+    
+
 }
 
 .activite6{
     display: flex;
     flex-direction: column; 
-    background-color: aqua;
-    margin-left: 20px;
+
+
 }
-
-
 
 
 
