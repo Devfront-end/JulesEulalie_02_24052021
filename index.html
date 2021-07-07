@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,46 +12,38 @@
 </head>
     <body>
        <div id="blocpage">
-
 <!--MENU DE NAVIGATION-->
-
-               <div>
-                <nav>
-                    <img src="images/logo/Reservia@3x.png" alt="">
-                  
-                        <ul class="ul_li">
-                        <a href="Hébergements">Hebergements</a>
-                        <li>Activités</li>
-                        <a href="inscrire">S'inscrire</a>
-                        </ul>
-                  
-                </nav>
-                </div>
-
+        <div>
+            <nav>
+            <img src="images/logo/Reservia@3x.png" alt="">
+                <ul class="ul_li">
+                <a href="Hébergements">Hebergements</a>
+                <li>Activités</li>
+                <a href="inscrire">S'inscrire</a>
+                </ul>
+            </nav>
+        </div>
 <!--RECHERCHE-->
-                <div>
-                    <h1>Touvez votre hébergement pour des vacances de rêve</h1>
-                        <p>En plein centre ville ou en pleine nature</p>
+        <div>
+            <h1>Touvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
+            <div class="recherche">
+                <div class="localisation">
+                <form class="formulaire" action="" method="post">
+                <div class="iconmap">
+                    <i class="fas fa-map-marker-alt"></i> 
                 </div>
-                    <div class="recherche">
-                        <div class="localisation">
-                                <form class="formulaire" action="" method="post">
-                                    <div class="iconmap">
-                                        <i class="fas fa-map-marker-alt"></i> 
-                                    </div>
-                                    <div class="city">
-                                    <input type="search" name="localisation" id="ville" placeholder="Marseille, France">
-                                    </div>
-                                    <div class="bouton">
-                                        <a class="searchbutton" href="#">Rechercher</a>
-                                        <i class="fas fa-search"></i>
-                                    </div>
-                                </form>
-                                
-                        </div>
+                    <div>
+                        <input type="search" name="localisation" id="ville" placeholder="Marseille, France">
                     </div>
-
-
+                    <div class="bouton">
+                        <a class="searchbutton" href="#">Rechercher</a>
+                        <i class="fas fa-search"></i>
+                    </div>
+                </form>             
+                </div>
+            </div>
 <!---FILTRES-->
                 <div class="filtres">
                     <div class="titre_filtre">
@@ -95,7 +87,7 @@
                         <div class="hotel">    
                             <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="cannebiere class="photo">   
                             <div>
-                                <h2>Auberge la Cannebière</h2>
+                                <h3>Auberge la Cannebière</h3>
                                         <p>Nuit à partir de 25€</p>
                                             <div class="étoiles">
                                                 <i class="fas fa-star"></i>
@@ -108,7 +100,7 @@
                             </div>
                                 <div class="hotel">
                                     <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="port class="photo">
-                                        <h2>Hôtel du Port</h2>
+                                        <h3>Hôtel du Port</h3>
                                             <p>Nuit à partir de 50€</p>
                                                 <div class="étoiles">
                                                     <i class="fas fa-star"></i>
@@ -242,7 +234,7 @@
                     <div class="activite1">   
                         <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
                             <div class="nomactivite">
-                                <p>Vieux Port</p>
+                                <h3>Vieux Port</h3>
                             </div>
                     </div>
                     </div>
@@ -252,7 +244,7 @@
                         <div class="activite2">
                             <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
                             <div class="nomactivite">
-                                <p>Fort de Pomegues</p>
+                                <h3>Fort de Pomegues</h3>
                             </div>
                           
                                 
@@ -260,7 +252,7 @@
                                 <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
                            
                             <div class="nomactivite">
-                                <p>Îles de Frioul</p>
+                                <h3>Îles de Frioul</h3>
                             </div>
                         </div>
                     </div>
@@ -270,7 +262,7 @@
                             <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
                        
                             <div class="nomactivite">
-                                <p>Parc national des Calanques</p>
+                                <h3>Parc national des Calanques</h3>
                             </div>
                             </div>
                         </div>
@@ -279,14 +271,14 @@
                                     <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
                                 </div>
                                 <div class="nomactivite">
-                                    <p>Notre Dame de la Garde</p>
+                                    <h3>Notre Dame de la Garde</h3>
                                 </div>
                               
                                 <div class="activite6">
                                     <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
                                 
                                 <div class="nomactivite">
-                                    <p>Parc Lonchamp</p>
+                                    <h3>Parc Lonchamp</h3>
                                 </div>
                                 </div>
                             </div>
@@ -320,7 +312,11 @@
                                                    
                                                 </footer>
 
+<picture>
+<source srcset="">
 
+
+</picture>
 </div>
 </body>
 </html>
