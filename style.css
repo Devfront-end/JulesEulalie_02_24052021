@@ -11,14 +11,20 @@ body{
 
 
 p{
-    margin-left: 20px;
     font-family: Raleway;
-    font-size:20px;
-    
+    font-size:20px;  
+}
+
+.prix{
+    margin-top: -15px;
 }
 
 a{
     text-decoration: none;
+}
+
+.emplacement{
+line-height: 10px;
 }
 /*
 p hotels{
@@ -81,11 +87,17 @@ h1{
   margin-left: 20px;
 }
 
+.suite{
+    display: flex;
+    flex-direction:column;
+
+}
 
 /*RECHERCHE*/
 
 .formulaire{
     display: flex;
+    margin-top: 20px;
 }
 .localisation{
     display: flex;
@@ -130,14 +142,14 @@ input{
     height: 50px;
     border-style: none;
     margin-left: 10px;
-
-  
- 
+    border-right: none;
+    border-left: none;
+    border-top: #f2f2f2 1px solid;
+    border-bottom: #f2f2f2 1px solid; 
 }
 
 .searchbutton{
     color: white;
-
 }
 
 .bouton i{
@@ -151,13 +163,15 @@ input{
 
 .titre_filtre{
     display: flex;
-    padding-top: 1px;
-   
+    padding-top: 10px;
+    margin-left: 20px;
+     
 }
 
 .icone_filtre{
     display: flex;
-    padding-top: 1px;  
+    padding-top: 1px; 
+   
 }
 
 .eco{
@@ -473,7 +487,27 @@ h2{
     font-family: sans-serif;
     font-size: 1.2em;
     padding-top: 50px;
+    margin-left: 20px; 
+    padding-bottom: 10px;
+
+    
    
+    
+}
+
+.foot1{
+    margin-left:30px;
+    line-height: 10px
+}
+
+.foot2{
+    margin-left:30px;
+    line-height: 10px
+}
+
+.foot3{
+    margin-left:30px;
+    line-height: 10px
 }
 
 .sectionFooter{
