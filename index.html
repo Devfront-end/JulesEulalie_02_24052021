@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <main class="container">
     <picture>
         <source media="(max-width: 600px)" srcset="images/activites/4_small/vieux-port.jpg">
         <source media="(min-width: 601px) and (max-width: 767px)" srcset="images/activites/3_medium/vieux-port.jpg">
@@ -23,29 +24,26 @@
     </picture>
     <div id="blocpage">
         <!--MENU DE NAVIGATION-->
-        <header>
-            <div class="header">
-                <div id="logo">
-                    <img class="header_logo" src="images/logo/Reservia@3x.png" alt="logo">
-                </div>
+        <header>        
                 <nav class="header_nav">
+                    <img class="header_logo" src="images/logo/Reservia@3x.png" alt="logo">
+                    <p class="inscrire"> S'inscrire</p>
                     <ul>
-                        <li>
+                        <li class="hebergements">
                             <a href="hebergements">Hebergements</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="Act">Activites</a>
                         </li>
                     </ul>
-                    <div class="inscrire">
-                        <a href="#">S'inscrire</a>
-                    </div>
                 </nav>
-            </div>
+            
+        </header>
+        <main>
             <!--RECHERCHE/LOCALISATION-->
             <div class="emplacement">
                 <h2>Touvez votre hébergement pour des vacances de rêve</h2>
-                <p>En plein centre ville ou en pleine nature</p>
+                <p class="entête">En plein centre ville ou en pleine nature</p>
             </div>
             <div class="recherche">
                 <div class="localisation">
@@ -97,9 +95,9 @@
         <i class="fas fa-info"></i>
         <p>Plus de 500 logements disponibles dans cette ville</p>
     </div>
-    </header>
+
     <!--LES HEBERGEMENTS-->
-    <main>
+   
         <div class="hebergementsetpop">
             <section id="hotels">
                 <h2>Hébergements à Marseille</h2>
@@ -107,7 +105,7 @@
                     <div class="hotel">
                         <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                             alt="cannebiere class=" photo">
-                        <div class="descr">
+                        <div class="descriptif">
                             <h3>Auberge la Cannebière</h3>
                             <p>Nuit à partir de <span class="prix">25€</span></p>
                             <div class="étoiles">
@@ -122,7 +120,7 @@
                     <div class="hotel">
                         <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="port class="
                             photo">
-                        <div class="suite">
+                        <div class="descriptif">
                             <h3>Hôtel du Port</h3>
                             <p>Nuit à partir de 50<span class="prix">€</span></p>
                             <div class="étoiles">
@@ -137,7 +135,7 @@
                     <div class="hotel">
                         <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="mouettes class="
                             photo">
-                        <div class="suite">
+                        <div class="descriptif">
                             <h3>Hôtel les Mouettes</h3>
                             <p>Nuit à partir de 70<span class="prix">€</span></p>
                             <div class="étoiles">
@@ -152,7 +150,7 @@
                     <div class="hotel">
                         <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="mer class="
                             photo">
-                        <div class="suite">
+                        <div class="descriptif">
                             <h3>Hôtel de la mer</h3>
                             <p>Nuit à partir de 46<span class="prix">€</span></p>
                             <div class="étoiles">
@@ -167,7 +165,7 @@
                     <div class="hotel">
                         <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="panier class="
                             photo">
-                        <div class="suite">
+                        <div class="descriptif">
                             <h3>Auberge le panier</h3>
                             <p>Nuit à partir de <span class="prix">23€</span></p>
                             <div class="étoiles">
@@ -182,7 +180,7 @@
                     <div class="hotel">
                         <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                             alt="amina class=" photo">
-                        <div clmass="suite">
+                        <div clmass="descriptif">
                             <h3>Hôtel chez Amina</h3>
                             <p>Nuit à partir de 96<span class="prix">€</span></p>
                             <div class="étoiles">
@@ -273,11 +271,11 @@
                         <div class="nomactivite">
                             <h3>Fort de Pomegues</h3>
                         </div>
-                        <div class="activite3">
-                            <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
-                            <div class="nomactivite">
-                                <h3>Îles de Frioul</h3>
-                            </div>
+                    </div>
+                    <div class="activite3">
+                        <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
+                        <div class="nomactivite">
+                            <h3>Îles de Frioul</h3>
                         </div>
                     </div>
                 </div>
@@ -306,6 +304,7 @@
             </div>
         </section>
     </main>
+</main>
     <!--FOOTER-->
     <footer class="sectionFooter">
         <div class="foot1">
