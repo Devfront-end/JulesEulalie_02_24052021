@@ -9,26 +9,78 @@ body {
 }
 
 /*MENU DE NAVIGATION*/
+.container{
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+header{
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    margin: 0 auto;
-   
+    margin: 0 auto; 
 }
 
-.header_logo{
-    height: 3rem;
-    padding: 0 2rem;  
+nav p{
+    margin: 0;
+    margin-left: 30px;
+    padding-bottom: 0;
+    color:#0065fc;
+    border-top: 4px solid #ffffff;
 }
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    width: auto;
+    margin: auto;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+nav li{
+    width: 100%;
+}
+
+
+.header_logo{
+    height: 80px;
+    padding: 0 2rem; 
+    margin: 0; 
+}
+
+.hebergements{
+    padding: 30px;
+}
+
+.active{
+    padding: 30px;
+}
+
+.inscrire{
+    order: 3;
+    margin: 30px;
+}
+
+
 
 .header_nav{
     display: flex;
-    justify-content: space-between;  
+    flex-wrap: nowrap;  
+    align-items: flex-end;
+    height: 80px;
+    
 }
 
-.header ul{
+header ul{
     display: flex;
     padding: 0;
     margin: 0;
@@ -41,18 +93,19 @@ header ul {
     margin-left: 20px;
 }
 
-.hebergements{
-   
+.entête{
+    margin-left: 30px;
 }
+
+
 
 p {
     font-family: Raleway;
     font-size: 20px;
+  
 }
 
-.prix {
-    margin-top: -15px;
-}
+
 
 a {
     text-decoration: none;
@@ -69,17 +122,6 @@ p hotels{
     margin-left: 6px;
 }
 */
-
-
-
-
-
-
-
-
-
-
-
 
 
 h3 {
@@ -100,12 +142,6 @@ h1 {
     margin-left: 20px;
 }
 
-.suite {
-    display: flex;
-    flex-direction: column;
- 
-
-}
 
 /*RECHERCHE*/
 
@@ -168,9 +204,11 @@ input {
 }
 
 .filtres {
+    align-items: center;
     font-size: 1em;
     display: flex;
     align-items: row;
+    margin-top: 20px;
     
 }
 
@@ -181,7 +219,14 @@ input {
     border: 2px solid #d9d9d9;
     border-radius: 3em;
     margin-left: 10px;
- 
+    height: 60px;
+   
+}
+
+.contour_filtre:hover{
+    background: #0065fc;
+    color: #fff;
+    cursor: pointer;
 }
 
 .titre_filtre{
@@ -192,18 +237,18 @@ input {
 }
 
 .titre{
+    font-size: 1.2em;
     font-weight: bold;
     padding-right: 1.5em;
     padding-left: 0.5em;
+
 }
 
 .icone_filtre {
     display: flex;
-    padding-top: px;
     padding: 5px 5px;
     border-radius:50%;
     background-color: #deecff;
-
 }
 
 .fa-money-bill-wave {
@@ -358,11 +403,8 @@ h2 {
     margin-right: 30px;
 }
 
-.suite{
-    display: flex;
-    align-items: flex-start;
-  
-    
+.descriptif{
+
 }
 
 
@@ -445,17 +487,21 @@ h2 {
 
 
 .activite1 img {
-    height: 550px;
-    margin-top: -15px;
+    height: 700px;
 }
 
 
 .activite2 img {
     height: 200px;
+    margin-bottom: auto;
+      
 }
 
 .activite3 img {
+    height:200px;
     margin-top: 80px;
+    
+   
 }
 
 .activite4 img {
@@ -484,27 +530,18 @@ span.prix{
 .sectionFooter {
     display: flex;
     justify-content: space-around;
-    margin-left: -300px;
-
-
-
-
+    
 }
 
 .sous-titre {
-    font-family: sans-serif;
-    font-size: 1.2em;
+    
     padding-top: 50px;
-    margin-left: 20px;
     padding-bottom: 10px;
-
-
-
 
 }
 
 .foot1 {
-    margin-left: 30px;
+    
     line-height: 10px
 }
 
