@@ -15,16 +15,28 @@
 
 <body>
     <main class="container">
-    <picture>
-        <source media="(max-width: 600px)" srcset="images/activites/4_small/vieux-port.jpg">
-        <source media="(min-width: 601px) and (max-width: 767px)" srcset="images/activites/3_medium/vieux-port.jpg">
-        <source media="(min-width: 768px) and (max-width: 991px)" srcset="images/activites/2_large/vieux-port.jpg">
-        <source media="(min-width: 992px)" srcset="images/activites/1_xlarge/vieux-port.jpg">
-        <img src="images/activites/3_medium/vieux-port.jpg" alt="">
-    </picture>
-    <div id="blocpage">
-        <!--MENU DE NAVIGATION-->
-        <header>        
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/activites/4_small/vieux-port.jpg">
+            <source media="(min-width: 601px) and (max-width: 767px)" srcset="images/activites/3_medium/vieux-port.jpg">
+            <source media="(min-width: 768px) and (max-width: 991px)" srcset="images/activites/2_large/vieux-port.jpg">
+            <source media="(min-width: 992px)" srcset="images/activites/1_xlarge/vieux-port.jpg">
+            <img src="images/activites/3_medium/vieux-port.jpg" alt="">
+        </picture>
+        <div id="blocpage">
+            <!--MENU DE NAVIGATION-->
+            <header>
+                <nav>
+                    <img src="images/logo/Reservia@3x.png" alt="logo">
+                    <ul>
+                        <a href="Hébergements">Hebergements</a>
+                        <li>Activités</li>
+                        <a href="inscrire">S'inscrire</a>
+
+                    </ul>
+                </nav>
+            </header>
+
+            <header>
                 <nav class="header_nav">
                     <img class="header_logo" src="images/logo/Reservia@3x.png" alt="logo">
                     <p class="inscrire"> S'inscrire</p>
@@ -37,67 +49,67 @@
                         </li>
                     </ul>
                 </nav>
-            
-        </header>
-        <main>
-            <!--RECHERCHE/LOCALISATION-->
-            <div class="emplacement">
-                <h2>Touvez votre hébergement pour des vacances de rêve</h2>
-                <p class="entête">En plein centre ville ou en pleine nature</p>
-            </div>
-            <div class="recherche">
-                <div class="localisation">
-                    <form class="formulaire" action="" method="post">
-                        <div class="iconmap">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div>
-                            <input type="search" name="localisation" id="ville" placeholder="Marseille, France">
-                        </div>
-                        <div class="bouton">
-                            <a class="searchbutton" href="#">Rechercher</a>
-                            <i class="fas fa-search"></i>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!---FILTRES-->
-            <div class="filtres">
-                <h2 class="titre_filtre">Filtres</h2>
-                <div class="contour_filtre">
-                    <div class="icone_filtre">
-                        <i class="fas fa-money-bill-wave"></i>
-                    </div>
-                    <span class="titre">Économique</span>
-                </div>
-                <div class="contour_filtre">
-                    <div class="icone_filtre">
-                        <i class="fas solid fa-child"></i>
-                    </div>
-                    <span class="titre">Familial</span>
-                </div>
-                <div class="contour_filtre">
-                    <div class="icone_filtre">
-                        <i class="fas solid fa-heart"></i>
-                    </div>
-                    <span class="titre">Romantique</span>
-                </div>
-                <div class="contour_filtre">
-                    <div class="icone_filtre">
-                        <i class="fas solid fa-dog"></i>
-                    </div>
-                    <span class="titre">Animaux autorisés</span>
-                </div>
-            </div>
-    </div>
-    <!--INFORMATION-->
-    <div class="info">
-        <i class="fas fa-info"></i>
-        <p>Plus de 500 logements disponibles dans cette ville</p>
-    </div>
 
-    <!--LES HEBERGEMENTS-->
-   
+            </header>
+            <main>
+                <!--RECHERCHE/LOCALISATION-->
+                <div class="emplacement">
+                    <h2>Touvez votre hébergement pour des vacances de rêve</h2>
+                    <p class="entête">En plein centre ville ou en pleine nature</p>
+                </div>
+                <div class="recherche">
+                    <div class="localisation">
+                        <form class="formulaire" action="" method="post">
+                            <div class="iconmap">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <input type="search" name="localisation" id="ville" placeholder="Marseille, France">
+                            </div>
+                            <div class="bouton">
+                                <a class="searchbutton" href="#">Rechercher</a>
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!---FILTRES-->
+                <div class="filtres">
+                    <h2 class="titre_filtre">Filtres</h2>
+                    <div class="contour_filtre">
+                        <div class="icone_filtre">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <span class="titre">Économique</span>
+                    </div>
+                    <div class="contour_filtre">
+                        <div class="icone_filtre">
+                            <i class="fas solid fa-child"></i>
+                        </div>
+                        <span class="titre">Familial</span>
+                    </div>
+                    <div class="contour_filtre">
+                        <div class="icone_filtre">
+                            <i class="fas solid fa-heart"></i>
+                        </div>
+                        <span class="titre">Romantique</span>
+                    </div>
+                    <div class="contour_filtre">
+                        <div class="icone_filtre">
+                            <i class="fas solid fa-dog"></i>
+                        </div>
+                        <span class="titre">Animaux autorisés</span>
+                    </div>
+                </div>
+        </div>
+        <!--INFORMATION-->
+        <div class="info">
+            <i class="fas fa-info"></i>
+            <p>Plus de 500 logements disponibles dans cette ville</p>
+        </div>
+
+        <!--LES HEBERGEMENTS-->
+
         <div class="hebergementsetpop">
             <section id="hotels">
                 <h2>Hébergements à Marseille</h2>
@@ -304,7 +316,7 @@
             </div>
         </section>
     </main>
-</main>
+    </main>
     <!--FOOTER-->
     <footer class="sectionFooter">
         <div class="foot1">
