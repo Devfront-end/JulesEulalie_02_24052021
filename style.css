@@ -8,35 +8,6 @@ body {
     margin: auto;
 }
 
-header nav{
-    display: flex;
-    justify-content: space-between;
-
- 
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav img{
-    height: 50px;
-    margin-left: 20px;
-}
-
-nav{
-    margin-top: 10px;
-}
-
-nav ul{
-    display: flex;
-    list-style: none;
-}
-
-nav li{
-    margin: 0 10px 0 20px;
-}
 /*MENU DE NAVIGATION*/
 .container{
     padding-left: 0;
@@ -56,8 +27,6 @@ justify-content: space-between;
     align-items: center; 
     margin: 0 auto; 
 }
-
-
 
 nav p{
     margin: 0;
@@ -258,7 +227,7 @@ input {
     border: 2px solid #d9d9d9;
     border-radius: 3em;
     margin-left: 10px;
-    height: 60px;
+    height: 50px;
    
 }
 
@@ -298,7 +267,7 @@ input {
     margin: 12px;
     text-align: center;
     border-radius: 100%;
-    padding: 4.5px;
+ 
     width: 100%;
 }
 
@@ -313,7 +282,7 @@ input {
     margin: 15px;
     text-align: center;
     border-radius: 100%;
-    padding: 4.5px;
+    padding: px;
     width: 100%;
    
 
@@ -328,7 +297,7 @@ input {
     margin: 15px;
     text-align: center;
     border-radius: 100%;
-    padding: 4.5px;
+  
     width:100%;
     
 
@@ -346,7 +315,7 @@ input {
     margin: 12px;
     text-align: center;
     border-radius: 100%;
-    padding: 5px;
+
     width: 100%;
    
 
