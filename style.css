@@ -82,7 +82,7 @@ body {
   
   .inscrire a {
     color: #0065fc;
-    margin-right: -3.5em;
+    margin-right: -5em;
   }
   
   .inscrire a:hover {
@@ -104,6 +104,7 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     line-height: 1rem;
+    margin-left: 2em;
   }
   
   .lieu {
@@ -113,6 +114,7 @@ body {
   .recherche {
     display: flex;
     align-items: center;
+    margin-left: 2em;
   }
   
   .button {
@@ -173,7 +175,7 @@ body {
     align-items: center;
     font-size: 1em;
     display: flex;
-    margin-left: -20px;
+    margin-left: 1em;
   }
   
   .contour_filtre {
@@ -262,7 +264,8 @@ body {
   
   .info {
     display: flex;
-    margin-left: -20px;
+    margin-left: 1em;
+    margin-bottom: 3em;
   }
   
   .fa-info {
@@ -388,6 +391,10 @@ body {
     font-weight: bold;
     font-family: sans-serif;
     margin-left: 30px;
+  }
+
+  .afficher{
+    margin-top: 1em;
   }
   
   /* ACTIVITÉS */
