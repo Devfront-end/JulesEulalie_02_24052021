@@ -357,8 +357,10 @@ input::placeholder {
     padding-left: 10px;
     padding-right: 10px;
     margin: 40px;
-    ;
+    
 }
+
+
 
 .populo {
     display: flex;
@@ -394,81 +396,86 @@ h2 {
     margin-left: 30px;
 }
 
+h3{
+    margin-top: -0.px;
+}
+    
+
 .afficher {
     margin-top: 2em;
 }
 
-/* ACTIVITÉS */
+/* -----------ACTIVITÉS------------- */
+
 
 #activites {
     margin-left: 1%;
-    margin-right: -0.5%;
-    margin-top: 4.5em;
-}
-
-.container_activites {
+    margin-right: -0.9%;
+  }
+  
+  .container_activites {
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+  }
+  
+  .Activite {
+    border-radius: 1.25rem;
+    box-shadow: 0 0 15px grey;
+  }
+  
+  .blocActivite {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-}
-
-.activite {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 5px 18px grey;
-    border-radius: 10px 15px 10px 10px;
+    background-color:white;
+    border-radius: 15px 15px 10px 10px;
     width: 25%;
     margin: 15px;
-}
-
-.blocActivite {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 5px 18px grey;
-    border-radius: 10px 15px 10px 10px;
-    width: 25%;
-    margin: 15px;
-}
-
-.blocActivite img {
-    border-radius: 15px 15px 0 0;
+  }
+  
+  .blocActivite img {
+    border-radius: 10px 15px 0 0;
     width: 100%;
     object-fit: cover;
-}
-
-.activite img {
-    border-radius: 15px 15px 0 0;
+  }
+  
+  .Activite img {
     width: 100%;
     object-fit: cover;
-}
-
-.activite1 img {
+  }
+  
+  .Activite1 img {
     height: 600px;
-}
-
-.activite2 img {
+  }
+  
+  .Activite2 img {
     height: 200px;
-}
-
-.activite3 img {
+  }
+  
+  .Activite3 img {
     height: 200px;
-}
-
-.activite4 img {
+  }
+  
+  .Activite4 img {
     height: 600px;
-}
-
-.activite5 img {
+  }
+  
+  .Activite5 img {
     height: 200px;
-}
-
-.activite6 img {
+  }
+  
+  .Activite6 img {
     height: 200px;
-}
-
-.nomactivite {
+  }
+  
+  .nomactivite {
     font-weight: bold;
-}
+    padding: 0 0px 5px 20px;
+  }
+
+  
 
 footer {
     background-color: #f2f2f2;
