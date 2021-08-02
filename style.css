@@ -108,9 +108,6 @@ header ul li {
     margin-left: 2em;
 }
 
-.lieu {
-    line-height: 0;
-}
 
 .recherche {
     display: flex;
@@ -373,8 +370,6 @@ input::placeholder {
     margin-top:1px;
 }
 
-
-
 .populo {
     display: flex;
     flex-direction: column;
@@ -387,6 +382,7 @@ input::placeholder {
     object-fit: cover;
     width: 35%;
     border-radius: 15px 0px 0px 15px;
+    padding-bottom: 10px;
 }
 
 span.prix {
@@ -488,8 +484,6 @@ h3{
     padding: 0 0px 5px 20px;
   }
 
-  
-
 footer {
     background-color: #f2f2f2;
     width: 100%;
@@ -505,3 +499,5 @@ footer {
     width: 50%;
     margin-left: 50px;
 }
+
+/*---------Media queries-----------*/
