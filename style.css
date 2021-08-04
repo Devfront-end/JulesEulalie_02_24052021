@@ -108,6 +108,10 @@ header ul li {
     margin-left: 2em;
 }
 
+.lieu{
+    margin-top: auto;
+}
+
 
 .recherche {
     display: flex;
