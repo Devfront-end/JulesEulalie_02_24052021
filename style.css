@@ -484,6 +484,9 @@ h3{
     padding: 0 0px 5px 20px;
   }
 
+
+  /*------------------Footer-----------------------*/
+
 footer {
     background-color: #f2f2f2;
     width: 100%;
@@ -493,6 +496,7 @@ footer {
     display: flex;
     line-height: 1rem;
     box-sizing: border-box;
+    padding-top: 3em;
 }
 
 .foot {
@@ -500,4 +504,21 @@ footer {
     margin-left: 50px;
 }
 
-/*---------Media queries-----------*/
+/*---------Container-----------*/
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+    .container_header {
+        display: flex;
+        margin: 0;
+    }
+   
+}
+
+@media screen and (max-width: 600px) {
+    .header_nav {
+        display: flex;
+        margin: 0;
+    }
+}
