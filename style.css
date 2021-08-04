@@ -328,6 +328,10 @@ input::placeholder {
     object-fit: cover;
 }
 
+.afficher{
+    font-weight: 500;
+}
+
 /* LES PLUS POPULAIRES */
 
 #populaires {
@@ -510,11 +514,23 @@ footer {
 
 /*---------Media queries-----------*/
 
+@media screen and (max-width: 600px) {
+    .containerheader {
+        display: flex;
+        align-items: flex-end;
+    }
+    .header_nav {
+        flex-direction: column;
+    }
+    .filtres{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .header_nav {
         flex-direction: column;
-        margin: 0;
     }
 }
 
