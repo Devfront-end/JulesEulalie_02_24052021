@@ -393,6 +393,10 @@ input::placeholder {
     padding-bottom: 0.7em;
 }
 
+.pop3 {
+    height: 80%;
+}
+
 span.prix {
     font-weight: bold;
 }
