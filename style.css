@@ -41,10 +41,12 @@ nav p {
     border-top: 4px solid #ffffff;
 }
 
-
 .header_nav {
     display: flex;
     margin-right: 5%;
+    width: auto;
+    margin: auto;
+    margin-right: 0;
 }
 
 header ul {
@@ -108,10 +110,9 @@ header ul li {
     margin-left: 2em;
 }
 
-.lieu{
+.lieu {
     margin-top: auto;
 }
-
 
 .recherche {
     display: flex;
@@ -328,7 +329,7 @@ input::placeholder {
     object-fit: cover;
 }
 
-.afficher{
+.afficher {
     font-weight: 500;
 }
 
@@ -363,19 +364,22 @@ input::placeholder {
     padding-left: 10px;
     padding-right: 10px;
     margin: 40px;
+}
+
+.pop1 {
+
+    margin: 0;
     
 }
 
-.pop1{
-    margin-top:1px;
+.pop2 {
+    margin-top: 1px;
+    margin: 0;
 }
 
-.pop2{
-    margin-top:1px;
-}
-
-.pop3{
-    margin-top:1px;
+.pop3 {
+    margin-top: 1px;
+    margin: 0;
 }
 
 .populo {
@@ -383,6 +387,7 @@ input::placeholder {
     flex-direction: column;
     width: 40%;
     margin: 0.25rem 1rem;
+    position: relative;
 }
 
 .pop>img {
@@ -393,18 +398,31 @@ input::placeholder {
     padding-bottom: 0.7em;
 }
 
-.pop3 {
-    height: 80%;
-}
+
 
 span.prix {
     font-weight: bold;
+    margin: 0;
 }
 
-.étoiles {
+.prix{
+    margin-top: 1.9px;
+}
+
+.étoiles{
     color: #0065fc;
     margin-left: 5px;
     margin-top: -15px;
+    position: relative;
+    bottom: 0;
+}
+
+.étoiles-pop {
+    color: #0065fc;
+    margin-left: 5px;
+    margin-top: -15px;
+    position: absolute;
+    bottom: 0;
 }
 
 .grey {
@@ -417,10 +435,9 @@ h2 {
     margin-left: 30px;
 }
 
-h3{
+h3 {
     margin-top: -0px;
 }
-    
 
 .afficher {
     margin-top: 2em;
@@ -428,76 +445,73 @@ h3{
 
 /* -----------ACTIVITÉS------------- */
 
-
 #activites {
     margin-left: 1%;
     margin-right: -0.9%;
-  }
-  
-  .container_activites {
+}
+
+.container_activites {
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 100px;
     box-sizing: border-box;
-  }
-  
-  .Activite {
+}
+
+.Activite {
     border-radius: 1.25rem;
     box-shadow: 0 0 15px grey;
-  }
-  
-  .blocActivite {
+}
+
+.blocActivite {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color:white;
-
+    background-color: white;
     width: 25%;
     margin: 15px;
-  }
-  
-  .blocActivite img {
+}
+
+.blocActivite img {
     border-radius: 10px 15px 0 0;
     width: 100%;
     object-fit: cover;
-  }
-  
-  .Activite img {
+}
+
+.Activite img {
     width: 100%;
     object-fit: cover;
-  }
-  
-  .Activite1 img {
+}
+
+.Activite1 img {
     height: 600px;
-  }
-  
-  .Activite2 img {
-    height: 200px;
-  }
-  
-  .Activite3 img {
-    height: 200px;
-  }
-  
-  .Activite4 img {
+}
+
+.Activite2 img {
+    height: 250px;
+}
+
+.Activite3 img {
+    height: 250px;
+}
+
+.Activite4 img {
     height: 600px;
-  }
-  
-  .Activite5 img {
-    height: 200px;
-  }
-  
-  .Activite6 img {
-    height: 200px;
-  }
-  
-  .nomactivite {
+}
+
+.Activite5 img {
+    height: 250px;
+}
+
+.Activite6 img {
+    height: 260px;
+}
+
+.nomactivite {
     font-weight: bold;
     padding: 0 0px 5px 20px;
-  }
+}
 
-
-  /*------------------Footer-----------------------*/
+/*------------------Footer-----------------------*/
 
 footer {
     background-color: #f2f2f2;
@@ -518,15 +532,21 @@ footer {
 
 /*---------Media queries-----------*/
 
+@media (min-width:1200px) {
+    .inscrire {
+        order: 3;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .containerheader {
         display: flex;
-        align-items: flex-end;
+        flex-wrap: wrap;
     }
     .header_nav {
         flex-direction: column;
     }
-    .filtres{
+    .filtres {
         flex-direction: column;
         justify-content: flex-end;
     }
@@ -539,7 +559,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .filtres{
+    .filtres {
         flex-direction: column;
         justify-content: flex-end;
     }
@@ -548,6 +568,6 @@ footer {
 @media screen and (max-width: 600px) {
     .hebergementsetpop {
         flex-direction: column;
-        width:100%;
+        width: 100%;
     }
 }
