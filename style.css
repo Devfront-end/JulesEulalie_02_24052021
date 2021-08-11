@@ -584,14 +584,12 @@ footer {
     hr {
         visibility: hidden;
         height: 5px;
-       
     }
 }
 
 @media screen and (min-width:375px) {
     .hr {
         width: auto;
-    
     }
 }
 
@@ -605,8 +603,6 @@ footer {
         margin-top: 2em;
     }
 }
-
-
 
 @media screen and (max-width:375px) {
     .recherche {
@@ -639,22 +635,25 @@ footer {
         margin: 1em;
         margin-left: auto;
     }
+    .étoiles {
+        font-size: 0.7em;
+        margin: 1em;
+        margin-left: auto;
+    }
 }
 
 @media screen and (max-width: 375px) {
     .loupe_button i {
-   display: inline;
-   color: white;
-   background-color: #0065fc;
-   padding: 17px;
-   border-radius: 17px;
-   position: relative
-   
+        display: inline;
+        color: white;
+        background-color: #0065fc;
+        padding: 17px;
+        border-radius: 17px;
+        position: relative
     }
     .searchbutton {
         display: none;
     }
-   
 }
 
 @media (min-width:375px) {
@@ -678,11 +677,46 @@ footer {
     }
 }
 
+@media screen and (max-width:375px) {
+    .titre {
+        font-size: inherit;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .info {
+        margin-left: -0.8em;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .populo {
+        width: 42%;
+        
+    }
+}
+
+@media screen and (max-width:375px) {
+    .prix {
+        font-size: 0.9em;
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .pop {
+        border-radius: 19px 19px 19px 19px;
+        padding-top: 7px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
 @media screen and (max-width:531px) {
     .hotel {
         box-shadow: 0 0 15px grey;
-       display: flex;
-       flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -762,6 +796,18 @@ footer {
         justify-content: space-between;
         flex-wrap: nowrap;
         flex-direction: column-reverse;
+    }
+}
+
+@media  screen and (max-width:375px) {
+    .container_pop {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .fasfa-map-marker-alt {
+        font-size: small;
     }
 }
 
