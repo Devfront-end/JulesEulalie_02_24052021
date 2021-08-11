@@ -15,13 +15,14 @@
 
 <body>
     <main class="container">
+   
         <!--LOGO ET MENU DE NAVIGATION-->
         <header>
             <div class="containerheader">
                 <img class="header_logo" src="images/logo/Reservia@3x.png" alt="logo">
                 <a class="inscrire"> S'inscrire</a>
                 <nav class="header_nav">
-                    <ul>
+                    <ul class="liste">
                         <li class="hebergements">
                             <a href="hebergements">Hebergements</a>
                         </li>
@@ -34,9 +35,10 @@
         </header>
 
         <!--RECHERCHE-->
+       <hr/>
 
         <div class="emplacement">
-            <h3>Trouvez votre hébergement pour des vacances de rêves</h3>
+            <h3 class="place">Trouvez votre hébergement pour des vacances de rêves</h3>
             <p class="lieu">En plein centre ville ou en pleine nature</p>
         </div>
         <div class="recherche">
@@ -45,7 +47,7 @@
             </div>
             <form action="formulaire" method="post">
                 <p>
-                    <input type="search" name="localisation" id="ville" placeholder="Marseille, France">
+                    <input class="search_input" type="search" name="localisation" id="ville" placeholder="Marseille, France">
                 </p>
             </form>
             <div class="loupe_button">
@@ -133,7 +135,7 @@
                         <div class=" descriptif ">
                             <h3>Hôtel les Mouettes</h3>
                             <p>Nuit à partir de 70<span class=" prix ">€</span></p>
-                            <div class=" étoiles ">
+                            <div class=" étoiles">
                                 <i class=" fas fa-star "></i>
                                 <i class=" fas fa-star "></i>
                                 <i class=" fas fa-star "></i>
