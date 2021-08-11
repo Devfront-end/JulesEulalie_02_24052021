@@ -526,7 +526,31 @@ footer {
     margin-left: 50px;
 }
 
-/*---------Media queries-----------*/
+/*---------Media queries/ Iphone6/7/8-----------*/
+
+@media (max-width:1200px) {
+    .header_logo {
+        height: 45px;
+        margin-left: 4px;
+    }
+}
+
+@media (max-width:375px) {
+    .header_logo {
+        height: 45px;
+        margin-left: -4px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width: 667px) {
+    .inscrire {
+        color: #0065fc;
+        order: 3;
+        font-weight: 600;
+        margin-top: -20px;
+        margin-left: -7em;
+    }
+}
 
 @media (min-width:1200px) {
     .inscrire {
@@ -549,30 +573,55 @@ footer {
     }
 }
 
-@media (min-width:375px) and (max-width: 667px) {
-    .container {
-        flex-direction: column;
+@media screen and (max-width:375px) {
+    .liste {
+        margin-top: 5em;
+        margin-bottom: revert;
     }
 }
 
-@media screen and (min-width:375px) and (max-width: 667px) {
-    .inscrire {
-        color: #0065fc;
-        order: 3;
-        font-weight: 600;
-        margin-top: -1.5em;
+@media screen and (min-width:1200px) {
+    hr {
+        visibility: hidden;
+        height: 5px;
+       
     }
-}
-
-@media screen and (min-width:375px) and (max-width: 667px) {
-    #populaires {}
-}
-
-@media screen and (min-width:375px) and (max-width: 667px) {
-    .container_pop {}
 }
 
 @media screen and (min-width:375px) {
+    .hr {
+        width: auto;
+    
+    }
+}
+
+@media (max-width: 375px) {
+    .emplacement {
+        display: flex;
+        align-content: flex-start;
+        margin-left: auto;
+    }
+    .place {
+        margin-top: 2em;
+    }
+}
+
+
+
+@media screen and (max-width:375px) {
+    .recherche {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .hebergements a {
+        border-bottom: 3px solid #0065fc;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width:375px) {
     .pop1 {
         font-size: 1em;
     }
@@ -585,28 +634,76 @@ footer {
     .prix {
         font-size: 1em;
     }
-    .étoiles-pop {}
-}
-
-@media screen and (min-width:375px) and (max-width: 667px) {
-    .hotel_container {
-        display: flex;
+    .étoiles-pop {
+        font-size: 0.7em;
+        margin: 1em;
+        margin-left: auto;
     }
 }
 
-h @media screen and (min-width:375px) and (max-width: 667px) {
+@media screen and (max-width: 375px) {
+    .loupe_button i {
+   display: inline;
+   color: white;
+   background-color: #0065fc;
+   padding: 17px;
+   border-radius: 17px;
+   position: relative
+   
+    }
+    .searchbutton {
+        display: none;
+    }
+   
+}
+
+@media (min-width:375px) {
+    .searchbutton {
+        border-radius: 15px 15px 15px 15px;
+        padding: 15px;
+        background-color: #0065fc;
+        color: white;
+        text-decoration: none;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width:531px) {
+    .filtres {
+        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -0.5em;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:531px) {
     .hotel {
         box-shadow: 0 0 15px grey;
+       display: flex;
+       flex-direction: column;
     }
 }
 
-@media screen and (min-width:375px) and (max-width: 667px) {
-    .hotels {
+@media screen and (max-width:375px) {
+    #hotels {
         display: flex;
         flex-direction: column;
         border-radius: 30px;
         padding: 10px;
-        margin-left: inherit;
+        border-radius: 2%;
+        width: 65%;
+        margin-top: 0px;
+        margin-left: 30px;
+        height: max-content;
+    }
+}
+
+@media screen and (min-width:375px) {
+    #hotels {
+        border-radius: 2%;
+        width: 65%;
     }
 }
 
@@ -617,18 +714,8 @@ h @media screen and (min-width:375px) and (max-width: 667px) {
     }
 }
 
-@media screen and (min-width:531px) and (max-width: 667px) {
-    .blocActivite Activite {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: white;
-        margin: 15px;
-    }
-}
-
-@media screen and (min-width:600px) and (max-width: 667px) {
-    .blocActivite Activite {
+@media screen and (min-width:375px) and (max-width: 667px) {
+    .blocActiviteActivite {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -645,7 +732,7 @@ h @media screen and (min-width:375px) and (max-width: 667px) {
 }
 
 @media screen and (min-width:375px) and (max-width: 667px) {
-    .blocActivite Activite {
+    .blocActiviteActivite {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -655,26 +742,16 @@ h @media screen and (min-width:375px) and (max-width: 667px) {
     }
 }
 
+@media screen and (min-width:375px) and (max-width: 667px) {
+    .hotel_container {
+        display: flex;
+    }
+}
+
 @media screen and (min-width:375px) and (max-width:667px) {
     .Activite img {
         height: 200px;
         width: 24em;
-    }
-}
-
-@media (max-width: 531px) {
-    .header_nav {
-        margin-bottom: initial;
-    }
-    .hebergements {
-        margin-left: -19em;
-    }
-    .activites {
-        margin-right: 4px;
-    }
-    header ul li {
-        display: flex;
-        justify-content: flex-start;
     }
 }
 
@@ -688,35 +765,24 @@ h @media screen and (min-width:375px) and (max-width: 667px) {
     }
 }
 
-@media screen and (min-width:375px) and (max-width: 667px) {
-    .sous-titre {
-        padding-top: 30px;
+@media screen and (max-width:375px) {
+    .fasfa-info {
+        margin-left: -12px;
     }
-}
-
-@media screen and (max-width: 531px) {
-    .sectionFooter {
-        display: flex;
-        flex-direction: column;
+    @media screen and (min-width:375px) and (max-width: 667px) {
+        .sous-titre {
+            padding-top: 30px;
+        }
     }
-}
-
-
-@media screen and (max-width: 375px) {
-    .sectionFooter {
-        display: flex;
-        flex-direction: column;
+    @media screen and (max-width: 531px) {
+        .sectionFooter {
+            display: flex;
+            flex-direction: column;
+        }
     }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* STYLES GO HERE */
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
-
-@media (min-width:375px) and (max-width: 667px) {
-    .searchbutton {
-        border-radius: 15px 15px 15px 15px;
+    @media screen and (max-width: 375px) {
+        .sectionFooter {
+            display: flex;
+            flex-direction: column;
+        }
     }
-}
