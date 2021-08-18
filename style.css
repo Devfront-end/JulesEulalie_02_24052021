@@ -100,6 +100,10 @@ header ul li {
     cursor: pointer;
 }
 
+.place {
+    margin-top: -2em;
+}
+
 /* RECHERCHE */
 
 .emplacement {
@@ -363,7 +367,7 @@ input::placeholder {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    margin: 40px;
+    margin: 20px;
 }
 
 .pop1 {
@@ -526,18 +530,34 @@ footer {
     margin-left: 50px;
 }
 
-/*---------Media queries/ Iphone6/7/8-----------*/
+/*--------------Media queries IPad Pro 1024x 1366-------------*/
 
-@media screen and (max-width: 375px) {
-    body {
-        /*  overflow-y: hidden;*/
+@media screen and (min-width:) {
+    .header_logo {
+        height: 80px;
     }
+    .containerheader {
+        font-size: 2em;
+        
+    }
+
+    .hebergementsetpop {
+        flex-direction: column;
+        width: max-content;
+    }
+   
 }
 
-@media (max-width:1200px) {
-    .header_logo {
-        height: 45px;
-        margin-left: 4px;
+
+/*---------Media queries/ Iphone6/7/8-----------*/
+@media screen and (min-width:375px) {
+    .container {
+        margin: ;
+    }
+}
+@media screen and (max-width: 375px) {
+    .body {
+        overflow-y: hidden;
     }
 }
 
@@ -620,6 +640,8 @@ footer {
     .hebergements a {
         border-bottom: 3px solid #0065fc;
         padding-bottom: 24px;
+        font-size: 17px;
+        margin-left: -14em;
     }
 }
 
@@ -683,9 +705,9 @@ footer {
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (min-width:375px) {
     .populo {
-        width: 42%;
+       
     }
 }
 
@@ -702,8 +724,16 @@ footer {
         padding-left: 6px;
         padding-right: 6px;
         border-radius: 10px 10px 10px 0;
-        width: 100%;
-        margin-left: auto;
+    
+    }
+    .pop1 {
+        font-size: 15px;
+    }
+    .pop2 {
+        font-size: 15px;
+    }
+    .pop3 {
+        font-size: 15px;
     }
 }
 
@@ -712,7 +742,6 @@ footer {
         background-color: #f2f2f2;
         border-radius: 2%;
         width: 100%;
-       
     }
     @media screen and (max-width:531px) {
         .hotel {
@@ -765,6 +794,16 @@ footer {
             margin: 15px;
         }
     }
+
+    @media screen and (min-width:375px) {
+        .activite a{
+
+    margin-right: 5em;
+
+        }
+    }
+        
+    }
     @media screen and (min-width:375px) and (max-width: 667px) {
         .hotel_container {
             display: flex;
@@ -813,5 +852,9 @@ footer {
             .sectionFooter {
                 display: flex;
                 flex-direction: column;
+                width: auto;
+            }
+            .foot {
+                width: 100%;
             }
         }
