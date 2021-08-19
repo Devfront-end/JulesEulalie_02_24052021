@@ -532,18 +532,20 @@ footer {
 
 /*--------------Media queries IPad Pro 1024x 1366-------------*/
 
+
 @media screen and (max-width:1024px) {
     .header_logo {
         height: 80px;
     }
-}
-
-@media screen and (max-width:1024px) {
-    .containerheader {
-        font-size: 2em;
+    .container {
+        width: auto;
+    }
+    .container_activites {
+        font-size: 1em;
     }
     .header_logo {
         height: 2em;
+        font-size: 1em;
     }
     .containerheader {
         font-size: 2em;
@@ -554,9 +556,14 @@ footer {
     }
     .liste {
         margin-top: -1.5em;
+        font-size: 25px;
+
     }
     .inscrire {
         margin-top: -1.8em;
+        margin-right: 50px;
+        font-size: 25px;
+
     }
     .lieu {
         font-size: 2em;
