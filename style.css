@@ -530,60 +530,6 @@ footer {
     margin-left: 50px;
 }
 
-/*--------------Media queries IPad Pro 1024x 1366-------------*/
-
-
-@media screen and (max-width:1024px) {
-    .header_logo {
-        height: 80px;
-    }
-    .container {
-        width: auto;
-    }
-    .container_activites {
-        font-size: 1em;
-    }
-    .header_logo {
-        height: 2em;
-        font-size: 1em;
-    }
-    .containerheader {
-        font-size: 2em;
-    }
-    .place {
-        font-size: 2em;
-        padding-top: 1em;
-    }
-    .liste {
-        margin-top: -1.5em;
-        font-size: 25px;
-
-    }
-    .inscrire {
-        margin-top: -1.8em;
-        margin-right: 50px;
-        font-size: 25px;
-
-    }
-    .lieu {
-        font-size: 2em;
-    }
-    .hebergementsetpop {
-        flex-direction: column;
-    }
-    #hotels {
-        width: 94%;
-    }
-    #populaires {
-        margin-left: 2em;
-        margin-right: 1.5em;
-        width: auto;
-    }
-    .info {
-        font-size: 1.5em;
-    }
-}
-
 /*---------Media queries/ Iphone6/7/8-----------*/
 
 @media screen and (max-width: 375px) {
@@ -897,5 +843,59 @@ footer {
     }
     .foot {
         width: 100%;
+    }
+}
+
+/*--------------Media queries IPad Pro 1024x 1366-------------*/
+
+@media screen and (max-width:1024px) {
+    .header_logo {
+        height: 80px;
+    }
+    .container {
+        width: 100%;
+        margin-left: -0.5em;
+    }
+    .container_activites {
+        font-size: 1em;
+    }
+    .header_logo {
+        height: 2em;
+        font-size: 1em;
+    }
+    .containerheader {
+        font-size: 2em;
+    }
+    .place {
+        font-size: 2em;
+        padding-top: 1em;
+    }
+    .liste {
+        margin-top: -1.5em;
+        font-size: 25px;
+
+    }
+    .inscrire {
+        margin-top: -1.8em;
+        margin-right: 50px;
+        font-size: 25px;
+
+    }
+    .lieu {
+        font-size: 2em;
+    }
+    .hebergementsetpop {
+        flex-direction: column;
+    }
+    #hotels {
+        width: 94%;
+    }
+    #populaires {
+        margin-left: 2em;
+        margin-right: 1.5em;
+        width: auto;
+    }
+    .info {
+        font-size: 1.5em;
     }
 }
