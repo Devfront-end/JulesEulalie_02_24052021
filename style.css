@@ -340,7 +340,7 @@ input::placeholder {
 
 #populaires {
     background-color: #f2f2f2;
-    border-radius: 2%;
+    border-radius:2%;
     width: 30%;
 }
 
@@ -579,7 +579,7 @@ footer {
   
     .liste {
       width: 100%;
-      border-bottom: 3px solid hsl(240deg 8% 93%);
+      border-bottom: 3px solid #ECECEE;
       padding: 15px;
     }
     
@@ -591,7 +591,7 @@ footer {
     }
   
     .place {
-      margin-top: 2em;
+      margin-top: 1em;
       margin-left: 1.5em;
       font-size: 1.3em;
       line-height: 30px;
@@ -610,6 +610,13 @@ footer {
       padding-bottom: 15px;
       font-size: 18px;
   
+    }
+
+    .descriptif {
+        margin: inherit;
+        font-size: inherit;
+        line-height: 8px;
+       
     }
   
     header ul {
@@ -674,7 +681,6 @@ footer {
     .family {
       position: absolute;
       margin: 70px 0 0 55%;
-      width: 35%;
     }
     
     .titre {
@@ -683,8 +689,10 @@ footer {
     
       #populaires {
         background-color: #f2f2f2;
-        border-radius: 2%;
+        border-radius: 0;
         width: 100%;
+     
+      
       }
     
       .pop {
@@ -783,7 +791,15 @@ footer {
       #activites {
         margin: 18px;
       }
-    
+      
+      .nomactivite {
+        font-weight: bold;
+        padding: 0 0px 5px 20px;
+        font-size: 14px;
+        height: 50px;
+        justify-items: center;
+        padding-top: 0.8em;
+      }
     
       .hebergementsetpop {
         display: flex;
@@ -795,6 +811,7 @@ footer {
     
       .container_pop {
         display: inline-block;
+        border-radius: 0;
       }
     
       .pop2 {
@@ -808,8 +825,6 @@ footer {
       .fasfa-info {
         margin-left: -12px;
       }
-    
-      .sous-titre {}
     
       .sectionFooter {
         display: flex;
@@ -825,13 +840,6 @@ footer {
       .foot {
         width: 100%;
         padding: 30px 5%;
-      }
-    }
-    
-    @media (min-width: 375px) {
-    
-      .hr {
-        width: auto;
       }
     }
     
