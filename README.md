@@ -1,5 +1,6 @@
 # JulesEulalie_02_24052021
 Intégrer une maquette responsive en HTML et CSS
+
 Fonctionnalités
 
 Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.
