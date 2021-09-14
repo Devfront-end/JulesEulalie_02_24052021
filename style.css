@@ -321,7 +321,6 @@ input::placeholder {
   border-radius: 30px;
   padding: 10px;
   margin: 15px;
-  cursor: pointer;
 }
 
 .hotel>img {
@@ -452,7 +451,6 @@ h3 {
   flex-wrap: nowrap;
   margin-bottom: 100px;
   box-sizing: border-box;
-  cursor: pointer;
 }
 
 .Activite {
