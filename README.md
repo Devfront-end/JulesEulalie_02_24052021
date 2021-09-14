@@ -1,4 +1,4 @@
-# Projet 2 - Réservia - JulesEulalie_02_24052021
+# Projet 2: Réservia 
 Intégrer une maquette responsive en HTML et CSS
 
 Fonctionnalités
