@@ -1,4 +1,4 @@
-# Projet 2: Réservia 
+# Projet 2 : Réservia 
 Intégrer une maquette responsive en HTML et CSS
 
 Fonctionnalités
