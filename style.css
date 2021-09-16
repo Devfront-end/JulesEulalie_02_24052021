@@ -14,14 +14,7 @@ p {
 }
 
 .container {
-  margin: 1em;
-  margin-left: 2em;
-  padding-left: 0;
-  padding-right: 0;
-  margin-right: 30px;
-  margin-left: 30px;
-  margin: 30px;
-  max-width: 1300px;
+  max-width: 1350px;
   margin: auto;
 }
 
@@ -306,7 +299,7 @@ input::placeholder {
   font-weight: bold;
   font-family: 'Raleway';
   margin-left: 30px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .descriptif {
@@ -319,7 +312,7 @@ input::placeholder {
   width: 65%;
   margin-top: 0px;
   margin-left: 30px;
-  height: max-content;
+  
 }
 
 .hotel_container {
@@ -339,12 +332,19 @@ input::placeholder {
   border-radius: 30px;
   padding: 7px;
   margin: 15px;
+  cursor: pointer;
 }
 
 .hotel>img {
   border-radius: 15px 15px 0 0;
   height: 120px;
   object-fit: cover;
+}
+.title_section {
+  font-weight: 600;
+  font-size:20px;
+  font-family: 'Raleway';
+  
 }
 
 .afficher {
@@ -365,6 +365,7 @@ input::placeholder {
   justify-content: space-between;
   margin-right: 30px;
   font-weight: 900;
+  font-size: x-large;
 }
 
 .container_pop {
@@ -383,6 +384,7 @@ input::placeholder {
   padding-left: 7px;
   padding-right: 7px;
   margin: 20px;
+  cursor: pointer;
 }
 
 .pop1 {
@@ -410,9 +412,9 @@ input::placeholder {
 .pop>img {
   height: 130px;
   object-fit: cover;
-  width: 35%;
+  width: 40%;
   border-radius: 15px 0px 0px 15px;
-  padding-bottom: 0.7em;
+  padding-bottom: 0.6em;
 }
 
 .fa,
@@ -468,7 +470,7 @@ h3 {
   font-weight: bold;
   font-family: 'Raleway';
   margin-left: 30px;
-  font-size: 20px;
+  font-size: 24px;
 
 }
 
@@ -482,6 +484,11 @@ h3 {
   flex-wrap: nowrap;
   margin-bottom: 100px;
   box-sizing: border-box;
+  cursor: pointer;
+}
+.lien {
+  text-decoration: none;
+  color: black;
 }
 
 .Activite {
