@@ -309,6 +309,7 @@ input::placeholder {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
 
 .hotel {
@@ -319,7 +320,7 @@ input::placeholder {
   background-color: white;
   padding-top: 10px;
   border-radius: 30px;
-  padding: 10px;
+  padding: 7px;
   margin: 15px;
 }
 
@@ -346,6 +347,7 @@ input::placeholder {
   align-items: center;
   justify-content: space-between;
   margin-right: 30px;
+  font-weight: 900;
 }
 
 .container_pop {
@@ -360,9 +362,9 @@ input::placeholder {
   flex-direction: row;
   background-color: rgb(255, 255, 255);
   border-radius: 15px 15px 15px 15px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
   margin: 20px;
 }
 
@@ -383,7 +385,7 @@ input::placeholder {
 .populo {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  
   margin: 0.25rem 1rem;
   position: relative;
 }
@@ -396,21 +398,25 @@ input::placeholder {
   padding-bottom: 0.7em;
 }
 
+.fa, .fas {
+  font-weight: 900;
+}
+
 span.prix {
   font-weight: bold;
   margin: 0;
 }
 
 .prix {
-  margin-top: 1.9px;
+  font-size: 14px;
 }
+
 
 .étoiles {
   color: #0065fc;
-  margin-left: 5px;
-  margin-top: -15px;
   position: relative;
-  bottom: 0;
+  bottom: 5px;
+  font-size: 12px;
 }
 
 .étoiles-pop {
@@ -418,7 +424,8 @@ span.prix {
   margin-left: 5px;
   margin-top: -15px;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
+  font-size: 12px;
 }
 
 .grey {
@@ -479,27 +486,27 @@ h3 {
 }
 
 .Activite1 img {
-  height: 600px;
+  height: 430px;
 }
 
 .Activite2 img {
-  height: 250px;
+  height: 200px;
 }
 
 .Activite3 img {
-  height: 250px;
+  height: 130px;
 }
 
 .Activite4 img {
-  height: 600px;
+  height: 430px;
 }
 
 .Activite5 img {
-  height: 250px;
+  height: 150px;
 }
 
 .Activite6 img {
-  height: 260px;
+  height: 190px;
 }
 
 .nomactivite {
@@ -540,6 +547,16 @@ footer {
     color: #0065fc;
     padding-top: 36px
   }
+  .price {
+    margin-top: -10px;
+    font-size: 14px;
+  }
+  h3 {
+    font-size: inherit;
+    padding-top: 10px;
+  }
+
+
 }
 
 @media screen and (min-width: 280px) and (max-width:768px) {
@@ -733,6 +750,13 @@ footer {
     background-color: transparent;
   }
 
+
+.prix {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+
   span.prix {
     font-weight: 500;
     margin: 0;
@@ -740,6 +764,7 @@ footer {
 
   .container_activites {
     flex-direction: column;
+    margin: 20px;
   }
 
   .afficher {
