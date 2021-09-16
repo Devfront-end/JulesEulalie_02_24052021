@@ -8,6 +8,10 @@ p {
 }
 
 /*MENU DE NAVIGATION*/
+.bloc-page {
+
+
+}
 
 .container {
   margin: 1em;
@@ -17,6 +21,8 @@ p {
   margin-right: 30px;
   margin-left: 30px;
   margin: 30px;
+  max-width: 1300px;
+  margin: auto;
 }
 
 .containerheader {
@@ -296,6 +302,17 @@ input::placeholder {
   flex-wrap: nowrap;
 }
 
+.titre_section {
+  font-weight: bold;
+  font-family: 'Raleway';
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.descriptif {
+  margin-left: inherit;
+}
+
 #hotels {
   background-color: #f2f2f2;
   border-radius: 2%;
@@ -385,7 +402,7 @@ input::placeholder {
 .populo {
   display: flex;
   flex-direction: column;
-  
+
   margin: 0.25rem 1rem;
   position: relative;
 }
@@ -398,7 +415,8 @@ input::placeholder {
   padding-bottom: 0.7em;
 }
 
-.fa, .fas {
+.fa,
+.fas {
   font-weight: 900;
 }
 
@@ -421,7 +439,6 @@ span.prix {
 
 .étoiles-pop {
   color: #0065fc;
-  margin-left: 5px;
   margin-top: -15px;
   position: absolute;
   bottom: 10px;
@@ -447,6 +464,13 @@ h3 {
 }
 
 /* -----------ACTIVITÉS------------- */
+.section_title {
+  font-weight: bold;
+  font-family: 'Raleway';
+  margin-left: 30px;
+  font-size: 20px;
+
+}
 
 #activites {
   margin-left: 1%;
@@ -541,16 +565,20 @@ footer {
     margin-top: -1px;
     cursor: pointer;
     order: 3;
+    font-weight: 600;
   }
 
   .inscrire {
     color: #0065fc;
     padding-top: 36px
+    
   }
+
   .price {
     margin-top: -10px;
     font-size: 14px;
   }
+
   h3 {
     font-size: inherit;
     padding-top: 10px;
@@ -735,6 +763,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 200px;
+    margin-right: auto;
   }
 
   #hotels {
@@ -751,10 +780,10 @@ footer {
   }
 
 
-.prix {
-  margin-top: 12px;
-  font-size: 14px;
-}
+  .prix {
+    margin-top: 12px;
+    font-size: 14px;
+  }
 
 
   span.prix {
@@ -764,7 +793,7 @@ footer {
 
   .container_activites {
     flex-direction: column;
-    margin: 20px;
+    margin: 10px;
   }
 
   .afficher {
