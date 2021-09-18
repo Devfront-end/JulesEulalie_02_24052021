@@ -374,7 +374,7 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
-  border-radius: 2%;
+  border-radius: 4%;
 }
 
 .pop {
