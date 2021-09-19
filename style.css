@@ -24,9 +24,10 @@ p {
 
 .header_logo {
   cursor: pointer;
-  height: 60px;
+  height: 45px;
   margin-left: 2em;
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 nav p {
@@ -326,7 +327,7 @@ input::placeholder {
   display: flex;
   margin-left: 30px;
   flex-direction: column;
-  width: 25%;
+  width: 27%;
   background-color: white;
   padding-top: 10px;
   border-radius: 30px;
@@ -345,7 +346,7 @@ input::placeholder {
   font-weight: 600;
   font-size: 20px;
   font-family: 'Raleway';
-  margin-left: 3.5em;
+  margin-left: 2em;
 
 }
 
@@ -581,7 +582,7 @@ footer {
 
   .inscrire {
     color: #0065fc;
-    padding-top: 36px
+    padding-top: 45px
   }
 
   .price {
@@ -617,13 +618,23 @@ footer {
     color: #0065fc;
     margin: auto;
     margin-right: 5%;
-    padding: 17px 0 30px 0;
+    padding: 42px 0 30px 0;
     font-weight: 600;
   }
 
   .liste {
     width: 100%;
-    border-bottom: 3px solid #ECECEE;
+  }
+
+  .liste li {
+    width: 50%;
+    text-align: center;
+    padding: 15px ;
+    border-bottom: 3px solid #ECECEE; 
+}
+  
+  .liste :hover{
+    border-bottom: 3px solid #0065fc;
     padding: 15px;
   }
 
@@ -854,6 +865,7 @@ footer {
 
   .activite a {
     margin-right: 5em;
+   text-decoration-color: none;
   }
 
   .hotel_container {
