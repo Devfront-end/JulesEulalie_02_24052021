@@ -680,10 +680,7 @@ footer {
     line-height: 8px;
   }
 
-  header ul {
-    margin: revert;
-    margin-left: revert;
-  }
+
 
   header ul li {
     margin-left: revert;
