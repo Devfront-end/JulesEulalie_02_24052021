@@ -311,35 +311,37 @@ input::placeholder {
   border-radius: 3%;
   width: 65%;
   margin-top: 0px;
-  margin-left: 30px;
+
 
 }
 
 .hotel_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-
-
+ 
 }
 
 .hotel {
   display: flex;
   margin-left: 30px;
   flex-direction: column;
-  width: 27%;
+  width: 28%;
   background-color: white;
   padding-top: 10px;
   border-radius: 30px;
   padding: 7px;
   margin: 15px;
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 
 .hotel>img {
   border-radius: 15px 15px 0 0;
   height: 120px;
   object-fit: cover;
+ 
+ 
 }
 
 .title_section {
@@ -388,6 +390,7 @@ input::placeholder {
   padding-right: 7px;
   margin: 20px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .pop1 {
@@ -407,9 +410,14 @@ input::placeholder {
 .populo {
   display: flex;
   flex-direction: column;
-
   margin: 0.25rem 1rem;
   position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.populo a {
+  text-decoration: none;
 }
 
 .pop>img {
@@ -435,14 +443,14 @@ span.prix {
 }
 
 
-.étoiles {
+.etoiles {
   color: #0065fc;
   position: relative;
   bottom: 5px;
   font-size: 12px;
 }
 
-.étoiles-pop {
+.etoiles-pop {
   color: #0065fc;
   margin-top: -15px;
   position: absolute;
@@ -462,6 +470,8 @@ h2 {
 
 h3 {
   margin-top: -0px;
+  color: #000;
+
 }
 
 .afficher {
@@ -491,14 +501,10 @@ h3 {
   cursor: pointer;
 }
 
-.lien {
-  text-decoration: none;
-  color: black;
-}
-
 .Activite {
   border-radius: 1.25rem;
   box-shadow: 0 0 15px grey;
+  text-decoration: none;
 }
 
 .blocActivite {
@@ -590,7 +596,7 @@ footer {
     font-size: 14px;
   }
 
-  h3 {
+h3 {
     font-size: inherit;
     padding-top: 10px;
   }
@@ -627,7 +633,6 @@ footer {
   }
 
   .liste li {
-    width: 50%;
     text-align: center;
     padding: 15px ;
     border-bottom: 3px solid #ECECEE; 
@@ -867,6 +872,8 @@ footer {
 
   .hotel_container {
     display: flex;
+    justify-content: center;
+    
   }
 
   .Activite img {
@@ -882,7 +889,9 @@ footer {
     padding-top: 0.8em;
   }
   h3 {
+
     margin-top: auto;
+    
   }
 
   .hebergementsetpop {
