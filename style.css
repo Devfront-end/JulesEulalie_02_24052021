@@ -489,7 +489,7 @@ h3 {
 }
 
 #activites {
-  margin-left: 1%;
+ 
   margin-right: -0.99%;
 }
 
@@ -503,7 +503,7 @@ h3 {
 
 .Activite {
   border-radius: 1.25rem;
-  box-shadow: 0 0 15px grey;
+  box-shadow: 0 0 15px#ccc;
   text-decoration: none;
 }
 
@@ -891,7 +891,7 @@ h3 {
   h3 {
 
     margin-top: auto;
-    
+    font-size: inherit;
   }
 
   .hebergementsetpop {
@@ -943,11 +943,7 @@ h3 {
     margin: 0;
   }
 
-  .containerheader {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 1.5em;
-  }
+
 
   .header_logo {
     height: 60px;
