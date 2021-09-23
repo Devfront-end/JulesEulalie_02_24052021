@@ -1,4 +1,3 @@
-html,
 body {
   max-width: 100%;
   overflow-x: hidden;
@@ -507,6 +506,10 @@ h3 {
   text-decoration: none;
 }
 
+.Activite1 {
+  text-decoration: none;
+}
+
 .blocActivite {
   display: flex;
   flex-direction: column;
@@ -514,6 +517,7 @@ h3 {
   background-color: white;
   width: 25%;
   margin: 15px;
+
 }
 
 .blocActivite img {
@@ -698,13 +702,13 @@ h3 {
     border-top: 0;
   }
 
-  .étoiles-pop {
+  .etoiles-pop {
     font-size: 0.7em;
     margin: 1em;
     margin-left: auto;
   }
 
-  .étoiles {
+  .etoiles {
     font-size: 0.7em;
     margin: 1em;
     margin-left: auto;
@@ -867,7 +871,7 @@ h3 {
 
   .activite a {
     margin-right: 5em;
-   text-decoration-color: none;
+   text-decoration: none;
   }
 
   .hotel_container {
